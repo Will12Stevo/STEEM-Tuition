@@ -1,351 +1,338 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>STEEM Tuition</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
-      .image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-      }
-
-      .image-container img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      @media screen and (max-width: 768px) {
-        .row.gtr-150 {
-          display: block;
-        }
-
         .image-container {
-          margin-top: 20px;
-          text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
-      }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .row.gtr-150 {
+                display: block;
+            }
+
+            .image-container {
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+
+        
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 1px;
+            margin-bottom: 10px; /* Reduced margin below the buttons */
+        }
+
+        .actions li {
+            list-style: none;
+        }
+
+        .actions .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: rgba(0, 123, 255, 0.8);
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .actions .button:hover {
+            background-color: rgba(0, 86, 179, 0.8);
+        }
+
+        #WhyUs {
+            border-bottom: none;
+            margin-top: 0;
+        }
+
+        #WhyUs h2 {
+            text-decoration: none;
+            margin-top: 0;
+        }
     </style>
-    <style>
-      .actions {
-        display: flex;
-        justify-content: center; /* Center the items horizontally */
-        gap: 10px; /* Optional: Add some space between items */
-      }
-  
-      .actions li {
-        list-style: none; /* Remove bullet points */
-      }
-  
-      .actions .button {
-        text-decoration: none; /* Remove underline from links */
-        padding: 10px 20px; /* Add some padding for better appearance */
-        background-color: #007BFF; /* Background color for the button */
-        color: white; /* Text color */
-        border-radius: 5px; /* Rounded corners */
-      }
-  
-      .actions .button:hover {
-        background-color: #0056b3; /* Darker shade on hover */
-      }
-    </style>
-  </head>
-  <body class="is-preload">
+</head>
+<body class="is-preload">
     <!-- Header -->
     <section id="header">
-      <div class="inner">
-        <span class="icon solid major fa-chess-king"></span>
-        <h1>
-          <strong>STEEM TUITION</strong><br />
-          Science, Technology, Economics, Engineering and Math
-        </h1>
-        <p>"Entering the matrix since '01"</p>
-        <ul class="actions special">
-          <li><a href="#one" class="button scrolly">About Us</a></li>
-          <li><a href="#two" class="button scrolly">Experience</a></li>
-          <li><a href="#WhyUs" class="button scrolly">Why Us</a></li>
-          <li><a href="#three" class="button scrolly">Subjects & Pricing</a></li>
-          <li><a href="#contact" class="button scrolly">Contact</a></li>
-        </ul>
-      </div>
+        <div class="inner">
+            <span class="icon solid major fa-chess-king"></span>
+            <h1>
+                <strong>STEEM TUITION</strong><br />
+                Science, Technology, Economics, Engineering and Math
+            </h1>
+            <p>"Entering the matrix since '01"</p>
+            <ul class="actions special">
+                <li><a href="#one" class="button scrolly">About Us</a></li>
+                <li><a href="#two" class="button scrolly">Experience</a></li>
+                <li><a href="#WhyUs" class="button scrolly">Why Us</a></li>
+                <li><a href="#three" class="button scrolly">Subjects & Pricing</a></li>
+                <li><a href="#contact" class="button scrolly">Contact</a></li>
+            </ul>
+        </div>
     </section>
     
-
     <!-- One: About Me -->
     <section id="one" class="main style1">
-      <div class="container">
-        <div class="row gtr-150">
-          <div class="col-6 col-12-medium">
-            <header class="major">
-              <h2>About Us</h2>
-            </header>
-            <p>
-              At STEEM tuition we aspire to be...
-            </p>
-            <p>
-              We recognise the importance of tuition. Blah blah blah.
-            </p>
-          </div>
-          <div class="col-6 col-12-medium image-container">
-            <span class="image fit"
-              ><img src="images/stock1.jpeg"
-            /></span>
-          </div>
+        <div class="container">
+            <div class="row gtr-150">
+                <div class="col-6 col-12-medium">
+                    <header class="major">
+                        <h2>About Us</h2>
+                    </header>
+                    <p>
+                        At STEEM tuition we aspire to be...
+                    </p>
+                    <p>
+                        We recognise the importance of tuition. Blah blah blah.
+                    </p>
+                </div>
+                <div class="col-6 col-12-medium image-container">
+                    <span class="image fit">
+                        <img src="images/stock1.jpeg" />
+                    </span>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Two: Experience -->
     <section id="two" class="main style2">
-      <div class="container">
-        <div class="row gtr-150">
-          <div class="col-6 col-12-medium">
-            <span class="image fit"
-              ><img src="images/stock2.jpg"
-            /></span>
-          </div>
-          <div class="col-6 col-12-medium">
-            <header class="major">
-              <h2>Experience</h2>
+        <div class="container">
+            <div class="row gtr-150">
+                <div class="col-6 col-12-medium">
+                    <span class="image fit">
+                        <img src="images/stock2.jpg" />
+                    </span>
+                </div>
+                <div class="col-6 col-12-medium">
+                    <header class="major">
+                        <h2>Experience</h2>
+                    </header>
+                    <p>
+                        Over the past four years, our tutors have taught over 5000 hours of 
+                        lessons at both GCSE and A-Level, as well as preparing
+                        students for the 11+ exam. During this time our tutors have become
+                        proficient in using online classrooms to ensure students get the
+                        most out of their time with me.
+                    </p>
+                    <p>
+                        We pay close attention to each student's respective exam board. Each tutor will
+                        dedicate time to explore the specification / mark schemes and
+                        adapt lessons to ensure the content and techniques they teach are
+                        specific to the requirements of the student's relevant exam board.
+                    </p>
+                    <p>
+                        We provide thoroughly planned yet flexible lessons, identifying
+                        which skills students need to develop, providing well-explained
+                        examples, and using plenty of practice questions.
+                    </p>
+                </div>
+                <!-- Three: Qualifications-->
+            </div>
+            <header id="WhyUs" class="major">
+                <h2>Why we are the Right Tutors for You</h2>
             </header>
-            <p>
-              Over the past four years, our tutors have taught over 5000 hours of 
-              lessons at both GCSE and A-Level, as well as preparing
-              students for the 11+ exam. During this time our tutors have become
-              proficient in using online classrooms to ensure students get the
-              most out of their time with me.
-            </p>
-            <p>
-              We pay close attention to each student's respective exam board. Each tutor will
-              dedicate time to explore the specification / mark schemes and
-              adapt lessons to ensure the content and techniques they teach are
-              specific to the requirements of the student's relevant exam board.
-            </p>
-            <p>
-              We provide thoroughly planned yet flexible lessons, identifying
-              which skills students need to develop, providing well-explained
-              examples, and using plenty of practice questions.
-            </p>
-          </div>
-          <!-- Three: Qualifications-->
+            <div class="full-width-content">
+                <p>
+                    Economics: I have specialist knowledge of the essay technique
+                    required to succeed in the Economics exams, furthered by three years
+                    spent learning from an exam board member. I tailor lessons to each
+                    student’s respective exam board and have comprehensive notes for
+                    each one.
+                </p>
+                <p>
+                    Maths: I have experience supporting students across all the major
+                    exam boards, and at all levels of ability. Whether Maths is your
+                    passion, a supplement to Economics, or you just want to pass the
+                    exam, I have helped students achieve their individual goals with
+                    great success.
+                </p>
+                <p>
+                    11+ exam: Having benefitted from tuition for the 11+ myself, I
+                    understand the difficulties of the exam and the value a tutor can
+                    provide in helping you secure a place at your desired school.
+                </p>
+            </div>
         </div>
-        <header id="WhyUs" class="major">
-          <h2>Why we are the Right Tutors for You</h2>
-        </header>
-        <div class="full-width-content">
-          <p>
-            Economics: I have specialist knowledge of the essay technique
-            required to succeed in the Economics exams, furthered by three years
-            spent learning from an exam board member. I tailor lessons to each
-            student’s respective exam board and have comprehensive notes for
-            each one.
-          </p>
-          <p>
-            Maths: I have experience supporting students across all the major
-            exam boards, and at all levels of ability. Whether Maths is your
-            passion, a supplement to Economics, or you just want to pass the
-            exam, I have helped students achieve their individual goals with
-            great success.
-          </p>
-          <p>
-            11+ exam: Having benefitted from tuition for the 11+ myself, I
-            understand the difficulties of the exam and the value a tutor can
-            provide in helping you secure a place at your desired school.
-          </p>
-        </div>
-      </div>
     </section>
 
     <!-- Four: Services and pricing -->
     <section id="three" class="main style1 special">
-      <div class="container">
-        <header class="major">
-          <h2>Subjects & Pricing</h2>
-        </header>
-        <div class="content">
-          <p>
-            We offer customers the ability to purchase individual lessons or
-            lesson bundles for a discounted rate.
-          </p>
-          <p>
-            Prior to our first lesson, we offer a free introduction meeting. This
-            usually takes 15 minutes and allows us to prepare in the best
-            possible way for your first lesson. It also provides the
-            student/parent an opportunity to ask questions.
-          </p>
-          <p>
-            Lessons can be targeted on content revision, exam technique, or a
-            blend of both depending on the student's needs/preferences.
-          </p>
+        <div class="container">
+            <header class="major">
+                <h2>Subjects & Pricing</h2>
+            </header>
+            <div class="content">
+                <p>
+                    We offer customers the ability to purchase individual lessons or
+                    lesson bundles for a discounted rate.
+                </p>
+                <p>
+                    Prior to our first lesson, we offer a free introduction meeting. This
+                    usually takes 15 minutes and allows us to prepare in the best
+                    possible way for your first lesson. It also provides the
+                    student/parent an opportunity to ask questions.
+                </p>
+                <p>
+                    Lessons can be targeted on content revision, exam technique, or a
+                    blend of both depending on the student's needs/preferences.
+                </p>
+            </div>
+            <div class="row gtr-150">
+                <div class="col-2 col-12-medium"></div>
+                <div class="col-4 col-12-medium">
+                    <span class="icon solid major style5 fa-piggy-bank"></span>
+                    <h3 style="margin-bottom: 0">A-Level Subjects</h3>
+                    <p class="price" style="margin-top: 0; margin-bottom: 0; font-size: 1.2em">
+                        £45 - £65 per hour
+                    </p>
+                    <p style="margin-top: 0">Edexcel, AQA, OCR, WJEC</p>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <span class="icon solid style5 major fa-chart-pie"></span>
+                    <h3 style="margin-bottom: 0">GCSE Subjects</h3>
+                    <p class="price" style="margin-top: 0; margin-bottom: 0; font-size: 1.2em">
+                        £35 - £45 per hour
+                    </p>
+                    <p style="margin-top: 0">Edexcel, AQA, OCR, OCR-MEI, WJEC</p>
+                </div>
+            </div>
+            <div class="row gtr-150">
+                <div class="col-2 col-12-medium"></div>
+                <div class="col-4 col-12-medium">
+                    <span class="icon solid style6 major fa-chart-pie"></span>
+                    <h3 style="margin-bottom: 0">Key Stage 3</h3>
+                    <p class="price" style="margin-top: 0; margin-bottom: 0; font-size: 1.2em">
+                        £35 - £45 per hour
+                    </p>
+                    <p style="margin-top: 0">Edexcel, AQA, OCR, OCR-MEI, WJEC</p>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <span class="icon solid style6 major fa-book"></span>
+                    <h3 style="margin-bottom: 0">11+ Entrance Exams</h3>
+                    <p class="price" style="margin-top: 0; margin-bottom: 0; font-size: 1.2em">
+                        £35 - £45 per hour
+                    </p>
+                    <p style="margin-top: 0">All Exam Boards</p>
+                </div>
+                <div class="col-2 col-12-medium"></div>
+            </div>
         </div>
-        <div class="row gtr-150">
-          <div class="col-2 col-12-medium"></div>
-          <div class="col-4 col-12-medium">
-            <span class="icon solid major style5 fa-piggy-bank"></span>
-            <h3 style="margin-bottom: 0">A-Level Subjects</h3>
-            <p
-              class="price"
-              style="margin-top: 0; margin-bottom: 0; font-size: 1.2em"
-            >
-              £45 - £65 per hour
-            </p>
-            <p style="margin-top: 0">Edexcel, AQA, OCR, WJEC</p>
-          </div>
-          <div class="col-4 col-12-medium">
-            <span class="icon solid style5 major fa-chart-pie"></span>
-            <h3 style="margin-bottom: 0">GCSE Subjects</h3>
-            <p
-              class="price"
-              style="margin-top: 0; margin-bottom: 0; font-size: 1.2em"
-            >
-              £35 - £45 per hour
-            </p>
-            <p style="margin-top: 0">Edexcel, AQA, OCR, OCR-MEI, WJEC</p>
-          </div>
-        </div>
-        <div class="row gtr-150">
-          <div class="col-2 col-12-medium"></div>
-          <div class="col-4 col-12-medium">
-            <span class="icon solid style6 major fa-chart-pie"></span>
-            <h3 style="margin-bottom: 0">Key Stage 3</h3>
-            <p
-              class="price"
-              style="margin-top: 0; margin-bottom: 0; font-size: 1.2em"
-            >
-              £35 - £45 per hour
-            </p>
-            <p style="margin-top: 0">Edexcel, AQA, OCR, OCR-MEI, WJEC</p>
-          </div>
-          <div class="col-4 col-12-medium">
-            <span class="icon solid style6 major fa-book"></span>
-            <h3 style="margin-bottom: 0">11+ Entrance Exams</h3>
-            <p
-              class="price"
-              style="margin-top: 0; margin-bottom: 0; font-size: 1.2em"
-            >
-              £35 - £45 per hour
-            </p>
-            <p style="margin-top: 0">All Exam Boards</p>
-          </div>
-          <div class="col-2 col-12-medium"></div>
-        </div>
-      </div>
     </section>
 
     <!-- Five: Testimonials -->
     <section id="four" class="main style2 special">
-      <div class="container">
-        <header class="major">
-          <h2>Testimonials</h2>
-        </header>
-        <ul class="actions special">
-        </ul>
-        <div class="row gtr-150">
-          <div class="col-4 col-12-medium">
-            <blockquote>
-              <p>
-                "Great tutor, helpful and knowledgeable, helped me improve from
-                a C to an A for A-Level Economics."
-              </p>
-              <footer>— Previous Student</footer>
-            </blockquote>
-          </div>
-          <div class="col-4 col-12-medium">
-            <blockquote>
-              <p>
-                "Eliot has been a fantastic Maths and Economics tutor, very
-                knowledgeable and always happy to answer any questions I have,
-                giving in depth responses and he has really helped my
-                understanding of the content."
-              </p>
-              <footer>— Previous Student</footer>
-            </blockquote>
-          </div>
-          <div class="col-4 col-12-medium">
-            <blockquote>
-              <p>
-                "Very helpful, I feel much more confident in essay technique for
-                my GCSE (Economics). Easy to understand and talk to so I would
-                highly recommend Eliot."
-              </p>
-              <footer>— Previous Students</footer>
-            </blockquote>
-          </div>
+        <div class="container">
+            <header class="major">
+                <h2>Testimonials</h2>
+            </header>
+            <ul class="actions special">
+            </ul>
+            <div class="row gtr-150">
+                <div class="col-4 col-12-medium">
+                    <blockquote>
+                        <p>
+                            "Great tutor, helpful and knowledgeable, helped me improve from
+                            a C to an A for A-Level Economics."
+                        </p>
+                        <footer>— Previous Student</footer>
+                    </blockquote>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <blockquote>
+                        <p>
+                            "Eliot has been a fantastic Maths and Economics tutor, very
+                            knowledgeable and always happy to answer any questions I have,
+                            giving in depth responses and he has really helped my
+                            understanding of the content."
+                        </p>
+                        <footer>— Previous Student</footer>
+                    </blockquote>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <blockquote>
+                        <p>
+                            "Very helpful, I feel much more confident in essay technique for
+                            my GCSE (Economics). Easy to understand and talk to so I would
+                            highly recommend Eliot."
+                        </p>
+                        <footer>— Previous Students</footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Six: Contact -->
     <section id="contact" class="main style1 special">
-      <div class="container">
-        <header class="major">
-          <h2>Contact Us</h2>
-        </header>
-        <p>
-          Please leave your name, e-mail, and details of the support you are
-          looking for. I aim to respond to all enquiries within 24 hours.
-        </p>
-        <form method="POST" action="https://formspree.io/f/xgvwovyj">
-          <div class="row gtr-uniform gtr-50">
-            <div class="col-6 col-12-xsmall">
-              <input type="text" name="name" id="name" placeholder="Name" />
-            </div>
-            <div class="col-6 col-12-xsmall">
-              <input type="email" name="email" id="email" placeholder="Email" />
-            </div>
-            <div class="col-12">
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Message"
-                rows="6"
-              ></textarea>
-            </div>
-            <div class="col-12">
-              <ul class="actions special">
-                <li>
-                  <input type="submit" value="Send Message" class="primary" />
-                </li>
-                <li><input type="reset" value="Reset" /></li>
-              </ul>
-            </div>
-          </div>
-        </form>
-      </div>
+        <div class="container">
+            <header class="major">
+                <h2>Contact Us</h2>
+            </header>
+            <p>
+                Please leave your name, e-mail, and details of the support you are
+                looking for. I aim to respond to all enquiries within 24 hours.
+            </p>
+            <form method="POST" action="https://formspree.io/f/xgvwovyj">
+                <div class="row gtr-uniform gtr-50">
+                    <div class="col-6 col-12-xsmall">
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="col-6 col-12-xsmall">
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <ul class="actions special">
+                            <li>
+                                <input type="submit" value="Send Message" class="primary" />
+                            </li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
     <section id="footer">
-      <ul class="icons">
-        <li>
-          <a
-            href="https://www.linkedin.com/in/eliotking"
-            class="icon brands fa-linkedin"
-            target="_blank"
-            ><span class="label">LinkedIn</span></a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/profile.php?id=61561607537047&locale=en_GB"
-            class="icon brands fa-facebook-f"
-            target="_blank"
-            ><span class="label">Facebook</span></a
-          >
-        </li>
-      </ul>
-      <ul class="copyright">
-        <li>&copy; STEEM Tuition. All rights reserved.</li>
-      </ul>
+        <ul class="icons">
+            <li>
+                <a href="https://www.linkedin.com/in/eliotking" class="icon brands fa-linkedin" target="_blank">
+                    <span class="label">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=61561607537047&locale=en_GB" class="icon brands fa-facebook-f" target="_blank">
+                    <span class="label">Facebook</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; STEEM Tuition. All rights reserved.</li>
+        </ul>
     </section>
 
     <!-- Scripts -->
@@ -356,5 +343,5 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-  </body>
+</body>
 </html>
