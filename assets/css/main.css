@@ -3017,7 +3017,7 @@ button:disabled,
 /* Header */
 
 #header {
-  padding: 9em 0 9em 0;
+  padding: 2em 0 2em 0; /* Reduced padding */
   background-color: #192160;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed, fixed, fixed;
@@ -3029,6 +3029,9 @@ button:disabled,
   position: relative;
   text-align: center;
 }
+
+/* Rest of your CSS */
+
 
 #header a {
   border-bottom-color: rgba(255, 255, 255, 0.5);
@@ -3180,14 +3183,14 @@ button:disabled,
   transition: opacity 1s ease;
   background-image: linear-gradient(45deg, #4b3c2f, #1d1e49);
   content: "";
-  height: 100%;
+  height: 50%; /* Adjusted height to make it less tall */
   left: 0;
   opacity: 0;
   position: absolute;
   top: 0;
   width: 100%;
-  
 }
+
 
 body.is-preload #header .inner {
   -moz-transform: scale(1.05);
